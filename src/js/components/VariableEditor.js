@@ -76,16 +76,16 @@ class VariableEditor extends React.PureComponent {
           </span>
         ) : (
           <span>
-            {/* <span
+            <span
               {...Theme(theme, 'object-name')}
               class="object-key"
               key={variable.name + '_' + namespace}
-            > */}
-            {/* <span style={{ verticalAlign: 'top' }}>"</span>
+            >
+              <span style={{ verticalAlign: 'top' }}>"</span>
               <span style={{ display: 'inline-block' }}>{variable.name}</span>
-              <span style={{ verticalAlign: 'top' }}>"</span> */}
-            {/* </span>
-            <span {...Theme(theme, 'colon')}>:</span> */}
+              <span style={{ verticalAlign: 'top' }}>"</span>
+            </span>
+            <span {...Theme(theme, 'colon')}>:</span>
           </span>
         )}
         <div
